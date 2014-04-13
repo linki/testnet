@@ -1,4 +1,4 @@
-// A miniature HTTP interface for litecoind
+// A miniature HTTP interface for earthcoind
 
 var JSON = require("json"),
     fs = require('fs'),
