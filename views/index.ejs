@@ -58,7 +58,7 @@ function Application() {
                 // ---
 
                 _.each(response.last_blocks, function(o) {
-                    str += "<a href='http://testnet.litecointools.com:2750/block/"+o.hash+"' target='_blank'>"+o.height+" - "+o.hash+" <img src='link.gif'/></a><br/>";
+                    str += "<a href='http://testnet.earthchain.info/block/"+o.hash+"' target='_blank'>"+o.height+" - "+o.hash+" <img src='link.gif'/></a><br/>";
                 });
 
                 $("#last_blocks").html(str);
